@@ -1,0 +1,16 @@
+# .gitignore 파일에 규칙 추가
+cat << 'EOF' >> .gitignore
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Environment & Local configs (필요 시)
+.env
+.env.local
+*.log
+EOF
